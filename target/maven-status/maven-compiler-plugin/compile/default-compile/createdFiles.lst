@@ -1,0 +1,5 @@
+com/techsam/onelogin/Main.class
+com/techsam/onelogin/user/User.class
+com/techsam/onelogin/controller/HomeController.class
+com/techsam/onelogin/config/SAMLUserService.class
+com/techsam/onelogin/config/SecurityConfig.class

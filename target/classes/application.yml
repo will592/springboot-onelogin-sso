@@ -1,0 +1,13 @@
+onelogin:
+  metadata-path: classpath:onelogin/onelogin_metadata_1178496.xml
+  sp:
+    protocol: https
+    host: oneloginpoc.apps.prod.smarsh.cloud
+    path: /
+    key-store:
+      file: classpath:onelogin/keystore.jks
+      alias: spring
+      password: secret
+      type: JKS
+
+

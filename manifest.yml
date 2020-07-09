@@ -1,0 +1,7 @@
+---
+applications:
+- name: OneLoginPOC
+  memory: 1024M
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git#v4.16
+  env:
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+}}'
